@@ -1,0 +1,14 @@
+移动端联系人通讯录(包括新建、保存、编辑、删除联系人等基本功能)
+
+安装:建议使用yarn命令: yarn install
+运行:node index.js
+axios_node_api_master 是自己搭建的一个简易的node后端，以及相关接口表格说明;
+主要基于node + koa框架
+
+安装:建议使用yarn命令: yarn install
+运行:yarn serve
+axios-contact 是基于vue-cli3.x脚手架,使用vant-ui框架,利用axios,封装axios请求，自定义拦截器。
+
+(项目启动时候基于node环境下 需要同时启动axios_node_api_master 和axios-contact)
+打开浏览器输入:http://localhost:8080/contactlist  即可查看效果
+
